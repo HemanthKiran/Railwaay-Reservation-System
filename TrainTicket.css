@@ -36,7 +36,7 @@ li a:hover {
 
 .SelectStations {
   margin-top: 50px;
-  height: 450px;
+  height: 490px;
   width: 500px;
   padding: 5px;
   border-radius: 5px;
@@ -87,7 +87,7 @@ li a:hover {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
 }
-.CantactUs {
+.ContactUs {
   margin-top: 20px;
   height: 500px;
   width: 500px;
@@ -96,7 +96,7 @@ li a:hover {
   background-color: azure;
   text-align: center;
 }
-.CantactUs input {
+.ContactUs input {
   border-radius: 5px;
   border-color: black;
   width: 5cm;
@@ -105,7 +105,7 @@ li a:hover {
   padding: 15px;
   margin-top: 50px;
 }
-.CantactUs button {
+.ContactUs button {
   width: 5cm;
   margin-left: 30px;
   align-items: center;
