@@ -1,0 +1,161 @@
+body {
+  background-image: url(/images/w.jpg);
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  height: auto;
+  padding: 2px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: white;
+}
+img {
+  height: 70px;
+  width: 70px;
+  padding: px;
+}
+li {
+  float: right;
+  padding: 5px;
+}
+
+li a {
+  display: block;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b3a1a1;
+}
+
+.SelectStations {
+  margin-top: 50px;
+  height: 450px;
+  width: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+  text-align: center;
+}
+.SelectStations h1 {
+  width: 5cm;
+  margin-left: 170px;
+  align-items: center;
+  padding: px;
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.SelectStations input {
+  border-radius: 5px;
+  border-color: black;
+  width: 5cm;
+  margin-left: 20px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.SelectStations button {
+  width: 5cm;
+  margin-left: 50px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+  border: 5px solid rgb(212, 179, 179);
+}
+.Text {
+  width: 500px;
+  margin-top: -150px;
+  margin-left: 10cm;
+  float: right;
+}
+.Text h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 2000;
+  text-decoration: solid;
+  margin-bottom: 220px;
+}
+.About {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.CantactUs {
+  margin-top: 20px;
+  height: 500px;
+  width: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: azure;
+  text-align: center;
+}
+.CantactUs input {
+  border-radius: 5px;
+  border-color: black;
+  width: 5cm;
+  margin-left: 20px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.CantactUs button {
+  width: 5cm;
+  margin-left: 30px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.H1Tag {
+  border-radius: 1cm;
+  height: auto;
+  width: max-content;
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+  font-style: italic;
+  color: white;
+}
+h4 {
+  font-style: inherit;
+  color: black;
+  font-weight: bold;
+}
+.Login input {
+  border-radius: 5px;
+  border-color: black;
+  width: 10cm;
+  margin-left: 20px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.Login button {
+  width: 5cm;
+  margin-left: 30px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.SignUp input {
+  border-radius: 5px;
+  border-color: black;
+  width: 5cm;
+  margin-left: 20px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+.SignUp button {
+  width: 5cm;
+  margin-left: 30px;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+}
