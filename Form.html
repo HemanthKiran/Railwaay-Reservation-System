@@ -1,156 +1,148 @@
 <html>
-  <head>
-    <title>Railway Reservation System</title>
 
-    <style>
-      body {
-          background-image: linear-gradient(rgb(221, 141, 87),rgb(236, 233, 229),rgb(85, 175, 85));
-        padding: 5px;
-        margin: 5px;
-      }
-      ul {
-  list-style-type: none;
-  margin: 0;
-  height: auto;
-  padding: 2px;
-  overflow: hidden;
-  border-radius: 5px;
-  background-color: white;
-}
-img {
-  height: 70px;
-  width: 70px;
-  padding: px;
-}
-li {
-  float: right;
-  padding: 5px;
-}
+<head>
+  <title>Railway Reservation System</title>
 
-li a {
-  display: block;
-  color: blue;
-  font-weight: bold;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  <style>
+    body {
+      background-image: linear-gradient(rgb(221, 141, 87), rgb(236, 233, 229), rgb(85, 175, 85));
+      padding: 5px;
+      margin: 5px;
+    }
 
-li a:hover {
-  background-color: #b3a1a1;
-}
+    ul {
+      list-style-type: none;
+      margin: 0;
+      height: auto;
+      padding: 2px;
+      overflow: hidden;
+      border-radius: 5px;
+      background-color: white;
+    }
 
-      .main-div {
-        margin-top: 60px;
-        width: 500px;
-        float: center;
-        margin-left: 420px;
-        height: 520px;
-       
-        border-radius: 10px;
-       background-image: url("images/photo.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 5px;
-        color: white;
-        font-size: larger; 
-      }
-      .btn{
-          padding: 25px;
-          text-align: center;
-        
-         
-      }
-      
-    
-    </style>
-  </head>
-  <div>
+    img {
+      height: 70px;
+      width: 70px;
+      padding: px;
+    }
 
-    <ul>
-        <img class="logo" src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png">
-        <li><a href="login.html">Login</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="CantactUs.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="TrainTicket.html">Home</a></li>
-    </ul>
+    li {
+      float: right;
+      padding: 5px;
+    }
+
+    li a {
+      display: block;
+      color: blue;
+      font-weight: bold;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #b3a1a1;
+    }
+
+    .main-div {
+      margin-top: 60px;
+      width: 500px;
+      float: center;
+      margin-left: 420px;
+      height: 520px;
+
+      border-radius: 10px;
+      background-image: url("images/photo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5px;
+      color: white;
+      font-size: larger;
+    }
+
+    .btn {
+      padding: 25px;
+      text-align: center;
+
+
+    }
+  </style>
+</head>
+<div>
+
+  <ul>
+    <img class="logo" src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png">
+    <li><a href="login.html">Login</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="CantactUs.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="TrainTicket.html">Home</a></li>
+  </ul>
 </div>
-  <div class="main-div">
-    <form name="myform">
-      <div
-        style="
+<div class="main-div">
+  <form name="myform">
+    <div style="
           width: 476px;
           text-decoration: underline;
           text-align: center;
           
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
           font-size: larger;
-        "
-      >
-        <p>Passenger Details</p>
-      </div>
+        ">
+      <p>Passenger Details</p>
+    </div>
 
-      <p>
-        <label>Passenger Name:</label>
-        <input type="text" name="name" size="50" />
-      </p>
+    <p>
+      <label>Passenger Name:</label>
+      <input type="text" name="name" size="50" />
+    </p>
 
-      <p>
-        <label for="Gender">Gender:</label>
-        <select>
-          <option value=""></option>
-          <option value="Male">Male</option>
-          <option value="female">female</option>
-          <option value="Transgender">Transgender</option>
-        </select>
-        <label for="Age">Age:</label>
-        <input type="number" min="" max="100" value="" />
-      </p>
-      <p>
-        <label for="Berth Preference">Berth Preference:</label>
-        <select>
-          <option value=""></option>
-          <option value="Lower">Lower</option>
-          <option value="middel">middel</option>
-          <option value="upper">upper</option>
-          <option value="side-Lower">side-Lower</option>
-        </select>
-      </p>
-      <br>
-        <input
-          type="text"
-          placeholder="Address Lane1 :"
-          name="name"
-          size="65"
-        />
-      <br></br>
-        <input
-          type="text"
-          placeholder="Address Lane2 :"
-          name="name"
-          size="65"
-        />
-      </p>
-      <p>
-        <input type="text" placeholder="Pin Code*" name="PC" size="17" />
-        <input type="text" placeholder="City*" name="To" size="17" />
-        <input type="text" placeholder="State*" name="PC" size="17" />
-      </p>
-      <p>
-        <input type="text" placeholder="E-mail" size="65" /> 
+    <p>
+      <label for="Gender">Gender:</label>
+      <select>
+        <option value=""></option>
+        <option value="Male">Male</option>
+        <option value="female">female</option>
+        <option value="Transgender">Transgender</option>
+      </select>
+      <label for="Age">Age:</label>
+      <input type="number" min="" max="100" value="" />
+    </p>
+    <p>
+      <label for="Berth Preference">Berth Preference:</label>
+      <select>
+        <option value=""></option>
+        <option value="Lower">Lower</option>
+        <option value="middel">middel</option>
+        <option value="upper">upper</option>
+        <option value="side-Lower">side-Lower</option>
+      </select>
+    </p>
+    <br>
+    <input type="text" placeholder="Address Lane1 :" name="name" size="65" />
+    <br></br>
+    <input type="text" placeholder="Address Lane2 :" name="name" size="65" />
+    </p>
+    <p>
+      <input type="text" placeholder="Pin Code*" name="PC" size="17" />
+      <input type="text" placeholder="City*" name="To" size="17" />
+      <input type="text" placeholder="State*" name="PC" size="17" />
+    </p>
+    <p>
+      <input type="text" placeholder="E-mail" size="65" />
     </p>
     <input id="number" placeholder="Mobile Number" size="65">
 
-</form>
-<div class="btn">
+  </form>
+  <div class="btn">
     <a href="success.html">
-        <Button type="submit">Book your Ticket</Button>
-     </a> 
+      <Button type="submit">Book your Ticket</Button>
+    </a>
+
+  </div>
+
 
 </div>
-    
-    
 </div>
-</div>
+
 </html>
